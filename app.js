@@ -26,6 +26,6 @@ if(process.env.NODE_ENV === 'production'){
 
 
 app.listen(port, ()=>{
-    console.log(`site was listening at port ${port}`)
+    console.log(`site is listening at port ${port}`)
 })
 
