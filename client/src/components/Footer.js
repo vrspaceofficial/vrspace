@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 const Footer = () => {
   return (
@@ -13,10 +13,7 @@ const Footer = () => {
         <p className='text-slate-200'>|</p>
         <p className='text-slate-200'>All Prices Include GST</p>
         <p className='text-slate-200'>|</p>
-        <Link to="https://www.freepik.com/free-vector/engineers-cartoon-set_4005767.htm#query=worker&position=14&from_view=search&track=sph">
-
-        <p className='text-slate-200'>credits</p>
-        </Link>
+        <a className="text-slate-200" href="https://www.freepik.com/free-vector/engineers-cartoon-set_4005767.htm#query=worker&position=14&from_view=search&track=sph">Credits</a>
         </div>
     </div>
     </>

@@ -40,13 +40,13 @@ const Home = () => {
 
     <> 
 <section>
-  <div className="h-96 bg-slate-600 gray flex items-center justify-between">
-    <div className='ml-32 text-white h-auto'>
-      <p className='mb-4'>Be A Part Of Something Bigger</p>
+  <div className="sm:h-96 h-52 bg-slate-600 gray flex items-center justify-between">
+    <div className='flex flex-col text-white h-auto mx-auto w-6/12'>
+      <p className='text-center mx-2 sm:text-base mb-4'>Be A Part Of Something Bigger</p>
       {/* <b className='ml-8 text-5xl font-thin'>{show?`${userName}`:'VR Space'}</b> */}
-      <b className='ml-8 text-5xl font-thin'>VR Space</b>
+      <b className=' sm:text-5xl mx-auto text-3xl font-thin '>VR Space</b>
   </div>
-    <div className='homepic w-3/6 h-96'></div>
+    <div className='homepic w-3/6 sm:h-96 h-52 ' ></div>
     </div>
     
 </section>
