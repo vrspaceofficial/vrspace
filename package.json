@@ -1,6 +1,9 @@
 {
   "name": "vr-space",
-  "version": "1.0.0",
+  "version": "1.0.0","engines": {
+    "node": "16.17.0",
+ "npm": "8.15.0"
+  },
 
   "description": "site for buying AR and VR product",
   "main": "index.js",
