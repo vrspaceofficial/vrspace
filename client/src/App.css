@@ -1,0 +1,106 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.vertical-rl{
+  writing-mode: vertical-rl;
+}
+.w-100{
+  width: 100vw;
+}
+.h-100{
+  height: 100vh;
+}
+.bdr {
+  outline: 0;
+  border-width: 0 0 2px;
+  
+}
+.bdr:focus {
+  border-color: rgb(6, 99, 6)
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.curve:before{
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+  background: linear-gradient(180deg, #334155, rgb(164, 150, 150));
+}
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+.uns{
+  background: url('https://images.unsplash.com/photo-1660646133360-e572bc3aead1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI1fHx2cnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60');
+  background-size:cover;
+}
+.homepic{
+  background: url(https://images.unsplash.com/photo-1452696193712-6cabf5103b63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnV0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+}
+.text-small{
+  font-size: 13px;
+}
+
+.slt-1{
+  background: url("./images/glass.jpg");
+  background-size: 100% 100%;
+  border-radius: 0 50% 50% 0 /0 0 100% 100%;
+
+}
+.slt-2{
+  background: url("https://images.unsplash.com/photo-1483412468200-72182dbbc544?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BlY3RhY2xlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+  background-size: 100% 100%;
+  border-radius: 50% 0 0 50%/ 100% 100% 0 0  ;
+
+}
+.gray{
+  /* background: linear-gradient(180deg, #334155, #475569bf) */
+  /* background: linear-gradient(180deg, #334155, rgb(255, 255, 255)) */
+}
