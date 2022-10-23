@@ -87,6 +87,9 @@ input[type=number]::-webkit-outer-spin-button {
 .text-small{
   font-size: 13px;
 }
+.text-xsm{
+  font-size: 8px;
+}
 
 .slt-1{
   background: url("./images/glass.jpg");

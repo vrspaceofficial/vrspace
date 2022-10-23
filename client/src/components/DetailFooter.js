@@ -19,7 +19,7 @@ const DetailFooter = () => {
                 <div className='flex justify-between w-10/12 mx-auto mt-16'>
                     <div className=' w-3/12 flex flex-col items-center '>
                         <h3 className=''><span className='text-xl'>C</span>ustomer <span className='text-xl'>S</span>ervice</h3>
-                        <ul className='text-small'>
+                        <ul className='text-small mt-2'>
                             <li className='cursor-pointer hover:underline hover:text-slate-300'>Contact Us</li>
                             <li className='cursor-pointer hover:underline hover:text-slate-300'>Privacy & Statement</li>
                             <li className='cursor-pointer hover:underline hover:text-slate-300'>Terms & Conditions</li>
@@ -28,7 +28,7 @@ const DetailFooter = () => {
                     </div>
                     <div className=' w-3/12 flex flex-col items-center '>
                         <h3 className=''><span className='text-xl'>A</span>bout <span className='text-xl'>U</span>s</h3>
-                        <ul className='text-small'>
+                        <ul className='text-small mt-2'>
                             <li className='cursor-pointer hover:underline hover:text-slate-300'>Our Story</li>
                             <li className='cursor-pointer hover:underline hover:text-slate-300'>Team</li>
                             <li className='cursor-pointer hover:underline hover:text-slate-300'>Marketing</li>

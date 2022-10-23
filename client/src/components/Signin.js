@@ -44,9 +44,9 @@ const Signin = () => {
     <>
  <div className='my-20'>
   <div className="flex items-center w-10/12 mx-auto  py-6 px-4 rounded-2xl shadow-lg shadow-slate-700">
-  <div className="input w-1/2 flex items-center flex-col ">
+  <div className="input w-10/12 sm:w-1/2 flex items-center flex-col ">
           <h1 className=' text-4xl relative right-5 mb-3 hover:cursor-default'>Sign In</h1>
-          <form className='ml-4 mt-5' method="POST">
+          <form className='overflow-hidden ml-4 mt-5 w-full sm:w-auto' method="POST">
             <div className="inline-flex space-x-2"><label htmlFor="email"> <img width="30px" src={userImg} alt="user:" /> </label>
             <input type="email" name='email' value={email} onChange={(e)=>setemail(e.target.value)} placeholder='Enter your email' className='px-3 py-1 bdr placeholder-slate-300 text-slate-600 relative bg-white text-sm border-slate-300' /></div><br />
             <div className="inline-flex mt-2 space-x-2"><label htmlFor="password"> <img width="30px" src={userPass} alt="password:r" /> </label>
@@ -57,7 +57,7 @@ const Signin = () => {
           </form>
             <div className="mt-10 ">If you are not Registered? &nbsp;<NavLink to="/signup"> <span className='underline text-blue-600'>Register</span></NavLink></div>
         </div>
-        <div className="img w-1/2 flex items-center flex-col ">
+        <div className="hidden sm:flex img w-1/2  items-center flex-col ">
           <img src={logImg} width="100%"  alt="WELCOME SIR" />
         </div>
   </div>
