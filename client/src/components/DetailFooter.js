@@ -3,7 +3,7 @@ import React from 'react'
 const DetailFooter = () => {
     return (
         <>
-            <div className="body-bg py-10 text-white">
+            <div className="bg-slate-700 py-10 text-white">
                 {/* first part */}
                 <div className='flex flex-col items-center md:flex-row w-10/12 mx-auto justify-between'>
                     <p className='md:w-4/12 w-8/12 mb-2 sm:mb-0 text-center'>Stay up to date! We send out a newsletter
