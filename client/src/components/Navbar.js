@@ -35,7 +35,7 @@ const Navbar = () => {
    <>
    <nav className='z-10 top-0 sticky flex justify-between px-5 py-4 bg-slate-700 text-white  items-center'>
     <div className='sm:text-2xl text-xl text-slate-100 hover:cursor-default' >VR Space</div>
-    <ul className='flex space-x-4 px-2 hover:cursor-default'>
+    <ul className='flex space-x-4 px-2 hover:cursor-default text-xs sm:text-base'>
       <Render/>
     </ul>
    </nav>

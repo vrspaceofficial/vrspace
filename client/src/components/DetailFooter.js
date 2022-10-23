@@ -5,12 +5,12 @@ const DetailFooter = () => {
         <>
             <div className="bg-slate-700 py-10 text-white">
                 {/* first part */}
-                <div className='flex w-10/12 mx-auto justify-between'>
-                    <p className='w-4/12 text-center'>Stay up to date! We send out a newsletter
+                <div className='flex flex-col items-center md:flex-row w-10/12 mx-auto justify-between'>
+                    <p className='md:w-4/12 w-8/12 mb-2 sm:mb-0 text-center'>Stay up to date! We send out a newsletter
                         twice a week with our latest news.</p>
-                    <div className="flex items-center justify-between w-5/12">
-                         <input type="email" name="mailSend" placeholder='Enter your email' className='text-slate-700 rounded-3xl h-10 px-4 py-auto border-2 border-slate-800 w-72 '/>
-                    <button name="mailSend" className='px-2 bg-slate-500 rounded-3xl text-xs h-10 border-2 border-slate-800 mr-5  hover:border-slate-900 hover:bg-slate-400 hover:text-slate-900'>Send Me collections</button>
+                    <div className="mt-3 md:mt-0 flex items-center justify-between mx-auto sm:mx-0 sm:w-8/12 md:w-5/12">
+                         <input type="email" name="mailSend" placeholder='Enter your email' className='text-slate-700 rounded-3xl h-10 px-4 py-auto border-2 border-slate-800 sm:w-72 w-7/12 '/>
+                    <button name="mailSend" className='px-4 bg-slate-500 rounded-3xl text-xs h-10 border-2 border-slate-800 sm:  hover:border-slate-900 hover:bg-slate-400 hover:text-slate-900'>Send Me<br/> collections</button>
                     </div>
                 </div>
 
