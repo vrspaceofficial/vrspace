@@ -14,7 +14,7 @@ const Signin = () => {
 
   const LoginUser = async (e)=>{
     e.preventDefault();
-    const res = await fetch('https://vr-space-official.herokuapp.com/signin', {
+    const res = await fetch('/signin', {
       method:"POST",
       headers:{
         "Content-Type":"application/json"
