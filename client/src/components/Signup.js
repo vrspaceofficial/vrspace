@@ -28,7 +28,7 @@ const Signup = () => {
   const postData = async(e)=>{
     e.preventDefault();
     const {name, email, phone, password, cpassword}=user;
-    const res = await fetch("/register", {
+    const res = await fetch("https://vr-space-official.herokuapp.com/register", {
       method:"POST",
       headers:{
         "Content-Type": "application/json"
