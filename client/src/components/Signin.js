@@ -17,8 +17,8 @@ const Signin = () => {
     const res = await fetch('https://vr-space-official.herokuapp.com/signin', {
       method:"POST",
       headers:{
-        "Content-Type":"application/json",
-        "Access-Control-Allow-Credentials": true
+        "Content-Type":"application/json"
+        // "Access-Control-Allow-Credentials": true
       },
       body:JSON.stringify({
         email, password
