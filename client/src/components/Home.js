@@ -7,7 +7,7 @@ const Home = () => {
   
   const callHome = async ()=>{
     try {
-      const res = await fetch('/getData', {
+      const res = await fetch('https://vr-space-official.herokuapp.com/getData', {
         method:"GET",
         headers:{
           Accept:"application/json",
