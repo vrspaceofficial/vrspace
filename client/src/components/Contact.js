@@ -8,7 +8,7 @@ const Contact = () => {
   const [Data, setData] = useState({name:"", phone:"", email:"", message:""});
   const callAbout = async()=>{
   try {
-    const res = await fetch('/getData', {
+    const res = await fetch('http://vr-space-official.herokuapp.com/getData', {
       method:"GET",
       headers:{
         Accept:"application/json",
