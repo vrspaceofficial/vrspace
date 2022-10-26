@@ -9,9 +9,6 @@ cookieParser()
 require('../db/conn')
 
 
-router.get('/', (req, res)=>{
-    res.send("hello guys")
-})
 
 
 
