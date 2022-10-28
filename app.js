@@ -12,11 +12,15 @@ dotenv.config({path:"./config.env"})
 
 require('./db/conn')
 const userSchema = require('./model/userSchema');
+const { METHODS } = require('http');
 
 app.use(cookieParser())
 app.use(express.json())
 app.use(require('./routes/auth'))
-app.use(cors())
+app.use(cors({
+    origin:"https://vr-space-official.herokuapp.com/",
+    methods:['GET', 'POST']
+}))
 
 // // CORS
 // app.use(
