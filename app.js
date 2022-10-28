@@ -4,6 +4,7 @@ const cookieParser = require('cookie-parser')
 const port = process.env.PORT||5000;
 const app = express();
 const path  = require('path')
+const cors = require('cors')
 // const path = require('path')
 
 dotenv.config({path:"./config.env"})
@@ -15,6 +16,7 @@ const userSchema = require('./model/userSchema');
 app.use(cookieParser())
 app.use(express.json())
 app.use(require('./routes/auth'))
+app.use(cors())
 
 // // CORS
 // app.use(
