@@ -11,7 +11,7 @@ const Logout = () => {
     const navigate = useNavigate();
 
     useEffect(()=>{
-        fetch("https://vr-space-official.herokuapp.com/logout", {
+        fetch("/logout", {
             method:"GET",
             headers:{
                 Accept:"application/json",
