@@ -7,7 +7,7 @@ const path  = require('path')
 const cors = require('cors')
 // const path = require('path')
 
-dotenv.config({path:"./config.env"})
+dotenv.config()
 
 
 require('./db/conn')
